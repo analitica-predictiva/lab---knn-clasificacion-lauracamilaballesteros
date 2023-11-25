@@ -37,7 +37,7 @@ def pregunta_01():
     # Entrene el clasificador con el conjunto de entrenamiento
     knn.fit(X, y)
 
-    # Retorne el score del clasificador
+    # Retorne el score del clasificador..
     return knn.score(X, y).round(3)
 
 
